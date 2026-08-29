@@ -1,4 +1,4 @@
-# Project RAVEN
+# Project HARRIER
 
 Solid-state particle detector for a rocket payload. Detects cosmic radiation
 throughout flight and logs each hit with altitude, to build up counting
