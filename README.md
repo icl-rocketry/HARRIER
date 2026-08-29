@@ -12,8 +12,7 @@ silicon-diode detector channels and logs events.
 A cosmic particle hits a reverse-biased photodiode and dumps a few femtocoulombs
 of charge. A charge-sensitive amplifier turns that into a ~7 mV pulse, a
 comparator checks it against a tunable threshold and the output signal is processed
-by a seperate Pickle Rick board. Two diodes on two independent
-channels double the sensitive area without doubling the noise.
+by a seperate Pickle Rick board.
 
 ## Repository layout
 
