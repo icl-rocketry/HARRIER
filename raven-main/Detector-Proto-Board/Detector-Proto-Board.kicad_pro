@@ -159,9 +159,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -210,7 +210,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.1,
+        0.2,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -827,7 +830,7 @@
         "uuid": "8e9b2cb6-291f-43a2-81af-b7790dd07157"
       }
     ],
-    "used_designators": "C1,C35,C40-41,D1,D3,D5,J2-4,R1-3,R27,R33,R36,TP1-8,#PWR3,#PWR5,#PWR68,#PWR119,H101-104",
+    "used_designators": "RV1,U1,IC1,C1-7,C35,C39-41,D1-3,D5,J1-4,R1-15,R27,R30,R33,R36,R39,TP1-8,#PWR1-23,#PWR64,#PWR66,#PWR68,#PWR72,#PWR119,H1-4,H101-104",
     "variants": []
   },
   "sheets": [
