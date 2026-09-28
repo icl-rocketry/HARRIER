@@ -2068,7 +2068,7 @@
 				)
 			)
 		)
-		(property "Value" "953k"
+		(property "Value" "953kΩ"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "cdd3f24c-94f5-4816-b7dc-b0bab8a7202b")
@@ -4084,7 +4084,7 @@
 			(uuid "042d09ee-8086-43a5-872b-24c317398bd5")
 		)
 		(embedded_fonts no)
-		(model "${ICLR_HW}/3d/XT60PW MALE.STEP"
+		(model "/home/jak/Documents/iclr/iclr-hw/3d/XT60PW MALE.STEP"
 			(offset
 				(xyz 3.5 15.3 3.5)
 			)
@@ -6561,6 +6561,17 @@
 			(uuid "305df92c-34e0-4bdb-8732-37d767e34540")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Cenker_CKCS6028.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -6580,7 +6591,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kΩ"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "c2fb664d-5836-4caf-af22-2b99a9e13b6f")
@@ -6729,7 +6740,7 @@
 				)
 			)
 		)
-		(property "Value" "180k"
+		(property "Value" "180kΩ"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "9a950362-9b08-4784-8f45-5355f1d636c7")
@@ -9197,7 +9208,7 @@
 				)
 			)
 		)
-		(property "Value" "162k"
+		(property "Value" "162kΩ"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "c54a7f48-f363-4c09-8ba9-3e5368000b3e")
@@ -9577,15 +9588,15 @@
 			(uuid "f20656c3-78ae-4a73-968e-d33ca7534bbf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Nano-Fit_105313-xx03_1x03_P2.50mm_Horizontal.step"
+		(model "/home/jak/Documents/iclr/iclr-hw/3d/3pinnanofithorizontal.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 6.25 -2.5 2)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -9816,15 +9827,15 @@
 			(uuid "6bc844a5-1e52-4eae-b645-09a0e22f20bf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal.step"
+		(model "/home/jak/Documents/iclr/iclr-hw/3d/2pinnanofithorizontal.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 6.25 -1.25 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -9846,7 +9857,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "8426cdcd-fe2d-43a7-b171-efe3acb18f69")
@@ -14250,10 +14261,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND"
-		(at 134.6 80.2 270)
+	(gr_text "5V"
+		(at 134.6 80.55 270)
 		(layer "F.SilkS")
-		(uuid "9cc1bf4b-0b25-41ee-ad7f-e3c048e2bf57")
+		(uuid "778c2163-8e36-4257-8d9b-d49abf48b505")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -14263,10 +14274,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "5V"
-		(at 134.6 83.2 270)
+	(gr_text "GND"
+		(at 134.6 82.7 270)
 		(layer "F.SilkS")
-		(uuid "778c2163-8e36-4257-8d9b-d49abf48b505")
+		(uuid "9cc1bf4b-0b25-41ee-ad7f-e3c048e2bf57")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -14328,6 +14339,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND"
+		(at 138.7 82.7 270)
+		(layer "F.SilkS")
+		(uuid "217cdc93-7065-48d6-826b-6c6cda5e93e0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "25V"
 		(at 138.7 85.3 270)
 		(layer "F.SilkS")
@@ -14341,21 +14365,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND"
-		(at 138.8 80.2 270)
-		(layer "F.SilkS")
-		(uuid "217cdc93-7065-48d6-826b-6c6cda5e93e0")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "5V"
-		(at 138.8 83.2 270)
+		(at 138.8 80.65 270)
 		(layer "F.SilkS")
 		(uuid "24498efb-5b90-409d-b849-d549397ff7a6")
 		(effects

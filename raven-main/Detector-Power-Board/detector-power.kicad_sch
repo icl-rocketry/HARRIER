@@ -2807,7 +2807,7 @@
 	)
 	(text "need min 5mA to maintain regulation so R is low"
 		(exclude_from_sim no)
-		(at 230.886 114.808 0)
+		(at 247.142 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4553,7 +4553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.56kΩ"
+		(property "Value" "4.53kΩ"
 			(at 228.346 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4804,7 +4804,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "17cd8220-9302-4dac-9f9a-5791e209977c")
 		(property "Reference" "J2"
 			(at 62.865 52.07 0)
@@ -5175,7 +5175,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "220f780b-68e7-4ee6-9513-b94eca4efe87")
 		(property "Reference" "J3"
 			(at 167.64 35.56 0)
@@ -5660,7 +5660,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3bae7d48-5206-495a-a4a8-5bd41132bbd1")
 		(property "Reference" "J1"
 			(at 67.31 26.162 0)
